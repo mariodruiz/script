@@ -6,7 +6,7 @@ if [ "$user" != "root" ]; then
    exit 1;
 fi
 
-MAC=90:FB:A6:86:2F:10
+MAC=90:FB:A6:86:2F:A7
 interface=eth2
 
 /sbin/modprobe dummy
